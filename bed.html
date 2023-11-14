@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>
-            Object Detection Web App
+            Bedroom Image
         </title>
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,22 +13,26 @@
 
   <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
 
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="bed.css">
 
     </head>
 
     <body background="backgroung_image.jpeg">
         <center>
-            <h3 class="btn btn-info heading">Object Detection Web App</h3>
+            <h3 class="btn btn-info heading">Bedroom Image </h3>
+            <br>
+            <br>
+            <button onclick="back();" class="btn btn-info back_button">Back to Home</button>
+            <br>
+            <h3 id="status"> Status : </h3>
+            <br>
+            <h3 id="number_of_objects"> Number of objects detected : </h3>
 
-            <a href=""> </a>
-            <a href=""> </a>
-            <a href=""> </a>
 
         </center>
 
     </body>
 
-    <script src="main.js"></script>
+    <script src="bed.js"></script>
     
 </html>
